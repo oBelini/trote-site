@@ -24,8 +24,26 @@ function calcular(){
     else if (cor == "vermelho"){
         metaKit = 32
     }
+    else if (cor == "rosa"){
+        metaKit = 44
+    }
     else if (cor == "laranja"){
         metaKit = 21
+    }
+    else if (cor == "preto"){
+        metaKit = 60
+    }
+    else if (cor == "amarelo"){
+        metaKit = 54
+    }
+    else if (cor == "roxo"){
+        metaKit = 42
+    }
+    else if (cor == "marrom"){
+        metaKit = 88
+    }
+    else if (cor == "cinza"){
+        metaKit = 51
     }
     // obter o valor que usuário informou de qtde de kits
     let qtdeKits = Number(document.getElementById("qtdeKits").value)

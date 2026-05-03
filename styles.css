@@ -52,6 +52,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
+
 }
 
 .logo {
@@ -162,6 +163,7 @@ body {
     padding: 0 20px;
     position: relative;
     z-index: 10;
+    margin-top: 15px;
 }
 
 section {
